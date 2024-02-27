@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="maincontainer flex">
+      <div class="left bg-1 r-1">
+        <!-- home container -->
+        <div class="home bg-2 p-1">
+          <img src="logo.svg" class="invert point" alt="logo" />
+          <ul>
+            <li class="point"><i class="fa-solid fa-house point"></i>Home</li>
+            <li class="searchmain point"><i class="fa-solid fa-magnifying-glass point"></i>Search</li>
+          </ul>
+        </div>
+        <!-- library container -->
+        <div class="library bg-2 r-1 p-1">
+          <div class="heading">
+            <img src="library.svg" class="invert" alt="library" />
+            <h2>Your Library</h2>
+            <img src="libraryplus.svg" class="invert" alt="plus sign" />
+          </div>
+          <!-- playlist section  -->
+          <section class="mainplay">
+            <section class="playlist bg-3 r-1 p-1">
+              <div class="play">Create Your First Playlist</div>
+              <div class="play1">It's easy we will help you</div>
+              <button class="playbtn">Create Playlist</button>
+            </section>
+            <!-- playlist section 2 -->
+            <section class="playlist bg-3 r-1 p-1">
+              <div class="play11">Let's find some podcast to follow</div>
+              <div class="play12">we'll keep you updated on new episodes</div>
+              <button class="playbtn">Browse Podcasts</button>
+            </section>
+          </section>
+          <!-- footer section  -->
+          <div class="footer">
+            <div class="firstfoot">
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/privacy/"
+                  >Privacy Center</a>
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                  >Cookies</a
+                >
+              </div>
+            </div>
+            <div class="secondfoot">
+              <div>
+                <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                  >About Ads</a
+                >
+              </div>
+              <div>
+                <a href="https://www.spotify.com/in-en/accessibility/"
+                  >Accessibility</a
+                >
+              </div>
+            </div>
+            <div class="thirdfoot">
+              <a
+                href="https://www.spotify.com/legal/cookies-policy/"
+                target="_blank"
+                rel="noopener"
+                >Cookies</a
+              >
+            </div>
+            <button class="engbtn">
+              <i class="fa-solid fa-globe"></i>
+              English
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- right Box -->
+      <div class="right bg-2 r-1 m-1">
+        <div class="header">
+          <div class="nav">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+          <div class="buttons">
+            <button class="b2">Sign up</button>
+            <button class="b1">Log in</button>
+          </div>
+        </div>
+        <!-- spotify playlist  -->
+        <div class="spotifyplaylist">
+          <h2 class="hw">Spotify Playlist</h2>
+          <div class="cardcontainer">
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f0000000264979b6e970b4791a42d375c"
+                alt=""
+              />
+              <h2>Today's Top Hits</h2>
+              <p>Teddy Swims is on top</p>
+              <p>of the Hottest 50!</p>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img src="card1.jpg" alt="" />
+              <h2>Dinner With Friends</h2>
+              <p>The perfect soundtrack</p>
+              <p>to those long nights...</p>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f000000027cd703bbfec2f1e86c879bec"
+                alt=""
+              />
+              <h2>Dinner Lounge</h2>
+              <p>soft electronic music</p>
+              <p>for your dinner.</p>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f000000022ba865eb4204be02ce3e8e09"
+                alt=""
+              />
+              <h2>Feel good dinner</h2>
+              <p>An uplifting yet tasteful</p>
+              <p>dinner playlist with a...</p>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002dd9acb211caf8703ea9bfc98"
+                alt=""
+              />
+              <h2>Bossa Nova Dinner</h2>
+              <p>Soundtrack your cozy</p>
+              <p>Dinner with Bossa Nov...</p>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002a98e80d2fc9b1cf3b80c4481"
+                alt=""
+              />
+              <h2>Dinner Jazz</h2>
+              <p>The gentle sound of</p>
+              <p>some of the greatest...</p>
+            </div>
+
+            <div class="card">
+              <div class="circle">
+                <i class="fa-solid fa-play"></i>
+              </div>
+              <img
+                src="https://i.scdn.co/image/ab67706f0000000264979b6e970b4791a42d375c"
+                alt=""
+              />
+              <h2>Today's Top Hits</h2>
+              <p>Teddy Swims is on top</p>
+              <p>of the Hottest 50!</p>
+            </div>
+          </div>
+        </div>
+        <div class="rightfooter">
+          <div class="rhtfoot1">
+            <div class="rhtft1">Company</div>
+            <div class="rhtft2">About</div>
+            <div class="rhtft2">Jobs</div>
+            <div class="rhtft2">For the Record</div>
+          </div>
+          <div class="middlefoot">
+            <div class="midft1">Communites</div>
+            <div class="midft2">For Artists</div>
+            <div class="midft2">Developer</div>
+            <div class="midft2">Advertising</div>
+            <div class="midft2">Investors</div>
+            <div class="midft2">vendors</div>
+          </div>
+          <div class="leftfoot1">
+            <div class="lftft1">Useful Links</div>
+            <div class="lftft2">Support</div>
+            <div class="lftft2">Free Mobile App</div> 
+          </div>
+          <div class="insta">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="twitter">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+          <div class="facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+        </div>
+        <hr class="hrst"></hr>
+        <div class="copyright">© 2024 Spotify AB</div>
+        <div class="playbar">
+          <div class="songinfo">
+            <audio src="songs" id="audio-player"></audio>
+          </div>
+          <div class="playsongs">
+            <i class="fa-solid fa-shuffle"></i>
+            <!--Shuffle Button-->
+            <i class="fa-solid fa-backward-step"></i>
+            <!--Backward button-->
+            <i class="fa-solid fa-play"></i>
+            <!--playbutton-->
+            <i class="fa-solid fa-forward-step"></i>
+            <!--forward button-->
+          </div>
+          <div class="songtimer"></div>
+        </div>
+      </div>
+      <!---Right div-->
+    </div>
+    <!--maincontainer div-->
+    <script src="script.js"></script>
+  </body>
+</html>
